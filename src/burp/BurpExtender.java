@@ -26,7 +26,7 @@ public class BurpExtender implements IBurpExtender, IHttpListener {
 		stdout.println("\r\n\t_base64'Your Value'_base64");
 		stdout.println("\t_url'Your Value'_url");
 		stdout.println("\t_asciiHex'Your Value'_asciiHex");
-		stdout.println("\r\nCopyright © 2016 BiznetLab by Faruk UNAL");
+		stdout.println("\r\nCopyright Â© 2016 BiznetLab by Faruk UNAL");
 		stdout.println("_____________________________________________\r\n\r\n\r\n\r\n");
 
 		helpers = callbacks.getHelpers();
@@ -89,6 +89,6 @@ public class BurpExtender implements IBurpExtender, IHttpListener {
 			}
 		} catch (Exception e) { 
 		}
-		return "BiznetLab";
+		return textFK;
 	}
 }
